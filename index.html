@@ -6,11 +6,62 @@
     <title>Document</title>
 </head>
 <body>
-    <p>This is my html file to learn html</p>
+    <h1>Customer Feedback Survey</h1><br>
+    <p>Please take a moment to complete the survey below.</p><br><br>
+
     <form>
-        <label for="name">Enter your Full name</label>
-        <input type="text" id="name" name="name" required />
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required /><br><br>
+
+        <label for="age">Your Age:</label>
+        <input type="number" id="age" name="age" required/><br><br>
+
+        <label for="color">Favourite Color</label>
+        <select id="color" name="color">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="black">Black</option>
+            <option value="yellow">Yellow</option>
+        </select><br><br>
+
+
+        <label for="feedback">Your Feedback</label>
+        <textarea id="feedback" name="feedback" rows="4" cols="50" requird></textarea><br><br>
+
+        <input type="submit" value="submit">
 
     </form>
+
+    <h4>Instructions</h4>
+    <ul>
+        <li>ins 1</li>
+        <li>ins 2</li>
+        <li>ins 3</li>
+        <li>ins 4</li>
+    </ul>
+
+    <h3>Survey Response</h3><br><br>
+    <table style="border: 1px black solid">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Favourite Color</th>
+            <th>feedback</th>
+        </tr>
+
+        <tr>
+            <td>Yash Vats</td>
+            <td>22</td>
+            <td>Black</td>
+            <td>No Need</td>
+        </tr>
+
+        <tr>
+            <td>Divyanshu Kashyap</td>
+            <td>22</td>
+            <td>Pink</td>
+            <td>Why</td>
+        </tr>
+    </table>
 </body>
 </html>
